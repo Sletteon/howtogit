@@ -1,17 +1,15 @@
-def buzz():
-    for i in range(101):
+def fizzbuzz():
+     for i in range(101):
         if i%4==0:
-            print("buzz")
-        else:
-            print(i)
-def fizz():
-    for i in range(101):
+             print("buzz")
         if i%3==0:
             print("fizz")
+        if i%12==0:
+            print("fizzbuzz")
         else:
-            print(i)
+             print(i)
 def main():
-    fizz();
-    buzz();
+     fizzbuzz();
 if __name__=='__main__':
-        main()
+         main()
+
