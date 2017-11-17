@@ -1,7 +1,7 @@
 def fizzbuzz():
-     for i in range(101):
+    for i in range(101):
         if i%4==0:
-             print("buzz")
+            print("buzz")
         if i%3==0:
             print("fizz")
         if i%12==0:
