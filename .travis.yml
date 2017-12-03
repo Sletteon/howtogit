@@ -14,5 +14,5 @@ python:
 before_install: pip install codecov && sudo chmod +x fizzbuzz.py
 script:
   - ./fizzbuzz.py
-  - codecov
+  - codecov --token=cb604768-e913-4faf-aa18-e85247860b19
 sudo: enabled
